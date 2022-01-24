@@ -8,3 +8,7 @@ def count_sheeps(sheep):
         else:
             i += 1
     return total
+
+print(count_sheeps([True, True, True, False, True, False, True]) == 5)
+print(count_sheeps([False, True, False, True, False, True]) == 3)
+print(count_sheeps([True, True, True, False, True, False, True, True, False, False, True]) == 7)

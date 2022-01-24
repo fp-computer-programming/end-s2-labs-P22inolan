@@ -4,3 +4,7 @@ def even_or_odd(number):
         return "Even"
     else:
         return "Odd"
+
+print(even_or_odd(5) == "Odd")
+print(even_or_odd(12412) == "Even")
+print(even_or_odd(7) == "Odd")

@@ -4,3 +4,7 @@ def is_triangle(a, b, c):
         return True
     else:
         return False
+
+print(is_triangle(7, 2, 2) == False)
+print(is_triangle(1, 2, 2) == True)
+print(is_triangle(1, 3, 2) == False)
